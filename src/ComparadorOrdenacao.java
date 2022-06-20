@@ -135,7 +135,7 @@ class ComparadorOrdenacao {
             System.out.print("\nTamanho do conjunto: ");
             n = scanner.nextInt();
         }
-
+        scanner.close();
     }
 
     private static int[] randomizeArray(int[] array) {
@@ -151,6 +151,10 @@ class ComparadorOrdenacao {
         return array;
     }
 
+    /**
+     * Reverte um array
+     * @param array Array a ser revertido
+     */
     private static void reverseArray(int[] array) {
         int temp;
         for (int i = 0; i < array.length / 2; ++i) {
