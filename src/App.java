@@ -9,6 +9,7 @@ public class App{
 	public static void main (String[] args){
 		
 		/*
+		aaaaaaa
 		EXEMPLO DE FACTORY
 		int tipo = 1;
 		sort = rf.fazerOrdenacao(tipo);
