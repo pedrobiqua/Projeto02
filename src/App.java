@@ -9,7 +9,14 @@ public class App{
 	public static void main (String[] args){
 		
 		/*
-		aaaaaaa
+		1 QuickSort();
+    	2 ShellSort();
+        3 HeapSort();
+        4 InsertionSort();
+        5 MergeSort();
+        6 RadixSort();
+        7 ShellSort();
+		
 		EXEMPLO DE FACTORY
 		int tipo = 1;
 		sort = rf.fazerOrdenacao(tipo);
@@ -17,6 +24,7 @@ public class App{
 		if (sort != null) {
         	executar(sort,new int[6]);
         }
+		
 		*/
 
 		Scanner scanner = new Scanner(System.in);
